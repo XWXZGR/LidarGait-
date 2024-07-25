@@ -32,11 +32,6 @@ loss_cfg:
     type: CrossEntropyLoss
     log_prefix: softmax
     log_accuracy: true
-#  - loss_term_weight: 1.0
-#    num_classes: 1024  # 设置你的类别数目
-#    feat_dim: 256      # 设置你的特征维度
-#    type: CenterLoss
-#    log_prefix: center
 
 model_cfg:
   model: Baseline
