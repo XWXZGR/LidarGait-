@@ -2,9 +2,9 @@
 
 This code improves on LidarGait, the original code base address: https://github.com/ShiqiYu/OpenGait
 
-#How to use this code:
+# How to use this code:
 
-1.I have converted this code from LInux to run under Window in order to adapt to the local environment.
+1. I have converted this code from LInux to run under Window in order to adapt to the local environment.
 
 2. Download the SUSTech1K dataset. Specific address: https://lidargait.github.io/
    
