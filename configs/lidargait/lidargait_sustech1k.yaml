@@ -99,17 +99,17 @@ trainer_cfg:
     frames_num_fixed: 10 # fixed frames number for training
     sample_type: fixed_unordered # fixed control input frames number, unordered for controlling order of input tensor; Other options: unfixed_ordered or all_ordered
     type: TripletSampler
-  transform:
-    - type: BaseSilTransform
-#  transform:
-#    - type: Compose
-#      trf_cfg:
-#        - type: BaseSilTransform
-#        - type: RandomRotate_lidar
-#          prob: 1
-#        - type: RandomErasing_lidar
-#          prob: 0.3
-#        - type: RandomPerspective_lidar
-#          prob: 0.3
-#        - type: RandomAffine_lidar
-#          prob: 0.5
+  # transform:
+  #   - type: BaseSilTransform
+ transform:
+   - type: Compose
+     trf_cfg:
+       - type: BaseSilTransform
+       - type: RandomRotate_lidar
+         prob: 1
+       - type: RandomErasing_lidar
+         prob: 0.3
+       - type: RandomPerspective_lidar
+         prob: 0.3
+       - type: RandomAffine_lidar
+         prob: 0.3
