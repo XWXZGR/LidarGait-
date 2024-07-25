@@ -22,7 +22,7 @@ This code improves on LidarGait, the original code base address: https://github.
 
 4.运行程序：opengait/main.py
 
-#致谢
+# 致谢
 
 以下是一些对我们有益的优秀资源：
 
