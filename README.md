@@ -18,7 +18,7 @@ This code improves on LidarGait, the original code base address: https://github.
 
 2.下载SUSTech1K数据集。具体地址：https://lidargait.github.io/
 
-3.设置参数：configs/lidatgait/lidargait_sustech1k.yaml
+3.设置参数：configs/lidatgait/lidargait_sustech1k_da.yaml
 
 4.运行程序：opengait/main.py
 
