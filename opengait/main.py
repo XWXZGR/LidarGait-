@@ -9,11 +9,8 @@ from utils import config_loader, get_ddp_module, init_seeds, params_count, get_m
 parser = argparse.ArgumentParser(description='Main program for opengait.')
 parser.add_argument('--local_rank', type=int, default=0,
                     help="passed by torch.distributed.launch module")
-#E:\SC\OpenGait-master\configs\lidargait\lidargait_sustech1k.yaml
-#E:\SC\OpenGait-master\configs\lidargait\VGG_lidargait_sustech1k.yaml
-#E:\SC\OpenGait-master\configs\gaitbase\gaitbase_da_casiab.yaml
 parser.add_argument('--cfgs', type=str,
-                    default=r'E:\SC\OpenGait-master\configs\lidargait\VIG_lidargait_sustech1k.yaml', help="path of config file")
+                    default=r'E:\SC\OpenGait-master\configs\lidargait\lidargait_sustech1k_da.yaml', help="path of config file")
 parser.add_argument('--phase', default='train',
                     choices=['train', 'test'], help="choose train or test phase")
 parser.add_argument('--log_to_file', action='store_true',
